@@ -43,4 +43,8 @@ Existe 3 tipo de formatos em mips e cada um contem 32 bits:
 - **sll a,b,c**: utilizado para multiplicar de 2<sup>N</sup> (a = b * 2<sup>N</sup>)
 
 
+## Operações com vetores:
+- **lw a,N(x)**: utilizado para busca o valor N posições a frente de X no vetor e armazenar em **a** 
+- **sw a,N(x)**: utilizado para salvar o valor de **a**, N posições a frente de X no vetor
+
 
