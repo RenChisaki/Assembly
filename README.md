@@ -15,19 +15,19 @@ Estou aprendendo os conceitos de assembly mips 32  utilizando o simulador mars
 	$fp - frame pointer
 
 # Formatos de Instruções
-Existe 3 tipo de formatos em mips e cada um contem 32 bits:
-- **R**: instruçoes com registradores como operando
+Existe 3 tipo de formatos em mips e cada um contém 32 bits:
+- **R**: instruções com registradores como operando
 
     | op | rs | rt | rd | shamt | funct|
     | --- | --- | --- | --- | --- | ---|
     | 6 bits | 5 bits | 5 bits | 5 bits | 5 bits | 6 bits|
 
-- **I**: instruçoes aritméticas com imadiato e load/store
+- **I**: instruções aritméticas com imediato e load/store
    | op | rs | rt | Constant or address | 
     | --- | --- |  --- | --- |
     | 6 bits | 5 bits | 5 bits | 16 bits |
 
-- **J**: instruçoes de desvios incondicionais
+- **J**: instruções de desvios incondicionais
     | op | Constant or address | 
     | --- | --- |
     | 6 bits | 26 bits |
